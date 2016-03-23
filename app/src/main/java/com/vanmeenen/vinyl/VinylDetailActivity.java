@@ -30,7 +30,7 @@ public class VinylDetailActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Second button", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Button #2", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
