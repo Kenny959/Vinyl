@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Vinyl</string>
     <string name="title_vinyl_detail">Vinyl Detail</string>
+    <string name="title_activity_display_message">My Message</string>
 </resources>

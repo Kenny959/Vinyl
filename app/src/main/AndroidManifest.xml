@@ -27,6 +27,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.vanmeenen.vinyl.VinylListActivity" />
         </activity>
+        <activity
+            android:name=".NewItemActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName=".VinylListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vanmeenen.vinyl.VinylListActivity" />
+        </activity>
     </application>
 
 </manifest>
