@@ -144,12 +144,12 @@
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_lines.xml"
-    },
-    {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_item.xml",
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\src\\main\\res\\layout\\activity_new_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_lines.xml"
     },
     {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
@@ -166,6 +166,10 @@
     {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash.xml",
+        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\src\\main\\res\\layout\\splash.xml"
     },
     {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",

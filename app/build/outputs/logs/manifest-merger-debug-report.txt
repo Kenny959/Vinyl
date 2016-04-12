@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:2:1-49:12
 	package
 		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\Android
 		INJECTED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:5:5-39:19
+ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:5:5-47:19
 MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:23.2.1] C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.2.1] C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
@@ -44,50 +44,60 @@ MERGED from [com.android.support:support-v4:23.2.1] C:\Users\k.vanmeenen\Android
 		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:10:9-40
-activity#com.vanmeenen.vinyl.VinylListActivity
-ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:11:9-20:20
+activity#com.vanmeenen.vinyl.SplashScreenActivity
+ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:11:9-19:20
 	android:label
 		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:13:13-45
 	android:theme
 		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:14:13-56
 	android:name
-		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:12:13-46
+		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:12:13-49
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:15:13-18:29
 action#android.intent.action.MAIN
 ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
 		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:18:27-74
-activity#com.vanmeenen.vinyl.VinylDetailActivity
-ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:21:9-29:20
+		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.vanmeenen.vinyl.VinylListActivity
+ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:20:9-28:20
 	android:label
-		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:23:13-55
+		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:22:13-55
 	android:parentActivityName
-		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:24:13-60
+		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:23:13-60
 	android:theme
-		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:25:13-56
+		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:24:13-56
 	android:name
-		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:22:13-48
+		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:21:13-46
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:26:13-28:73
+ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:25:13-27:73
 	android:value
-		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:28:17-70
+		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:27:17-70
 	android:name
-		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:27:17-63
-activity#com.vanmeenen.vinyl.NewItemActivity
-ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:30:9-38:20
+		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:26:17-63
+activity#com.vanmeenen.vinyl.VinylDetailActivity
+ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:29:9-37:20
 	android:label
-		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:32:13-67
+		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:31:13-55
 	android:parentActivityName
-		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:33:13-60
+		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:32:13-60
 	android:theme
-		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:34:13-56
+		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:33:13-56
 	android:name
-		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:31:13-44
+		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:30:13-48
+activity#com.vanmeenen.vinyl.NewItemActivity
+ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:38:9-46:20
+	android:label
+		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:40:13-67
+	android:parentActivityName
+		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:41:13-60
+	android:theme
+		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:42:13-56
+	android:name
+		ADDED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml:39:13-44
 uses-sdk
 INJECTED from C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.2.1] C:\Users\k.vanmeenen\AndroidStudioProjects\Vinyl\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:21:5-23:78

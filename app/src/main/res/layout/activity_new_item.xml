@@ -24,14 +24,28 @@
     <AbsoluteLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#00FF00">
+        android:background="#696969">
 
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:layout_x="30dp"
+            android:layout_y="60dp"
+            android:textSize="25dp"/>
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="80dp"
-            android:text="Activity # 2"
+            android:layout_height="25dp"
+            android:text="Enter name:"
             android:id="@+id/textView"
-            android:layout_x="84dp"
-            android:layout_y="206dp" />
+            android:textColor="#FFFFFF"
+            android:layout_x="30dp"
+            android:layout_y="150dp" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_x="150dp"
+            android:layout_y="150dp"
+            android:background="#f9f7f7"/>
     </AbsoluteLayout>
 </android.support.design.widget.CoordinatorLayout>

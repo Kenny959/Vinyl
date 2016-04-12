@@ -41,7 +41,7 @@ public class VinylListActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        toolbar.setTitle(getTitle());
+        toolbar.setTitle("Hello");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
 
