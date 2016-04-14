@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.hardware.Camera;
 import android.hardware.Camera.PictureCallback;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -28,6 +29,7 @@ import java.io.IOException;
 public class NewItemActivity extends AppCompatActivity {
     private static final int CAMERA_REQUEST = 1888;
     ImageView mimageView;
+    TextView tv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +41,7 @@ public class NewItemActivity extends AppCompatActivity {
 
         mimageView = (ImageView) this.findViewById(R.id.image_from_camera);
         Button button = (Button) this.findViewById(R.id.take_image_from_camera);
+        tv = (TextView) this.findViewById(R.id.textView4);
     }
 
     protected void addButton(View view){
@@ -56,6 +59,9 @@ public class NewItemActivity extends AppCompatActivity {
         if (requestCode == CAMERA_REQUEST && resultCode == RESULT_OK) {
             Bitmap mphoto = (Bitmap) data.getExtras().get("data");
             mimageView.setImageBitmap(mphoto);
+            Uri uri = data.getData();
+
+            tv.setText(tv.getText()+ uri.toString());
         }
     }
 }

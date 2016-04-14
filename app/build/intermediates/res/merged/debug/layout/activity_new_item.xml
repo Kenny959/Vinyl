@@ -116,5 +116,14 @@
             android:text="Send"
             android:id="@+id/addButton"
             android:onClick="addButton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="URI : "
+            android:id="@+id/textView4"
+            android:layout_x="70dp"
+            android:layout_y="550dp" />
     </AbsoluteLayout>
 </android.support.design.widget.CoordinatorLayout>
