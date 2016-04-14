@@ -59,12 +59,10 @@ public class VinylListActivity extends AppCompatActivity {
     }
 
 
-    /** Called when the user clicks the Send button */
+    /** Called when the user clicks the Add button */
     public void clickBtn1(View view) {
         Intent intent = new Intent(VinylListActivity.this, NewItemActivity.class);
         startActivity(intent);
-
-
     }
 
     private void setupRecyclerView(@NonNull RecyclerView recyclerView) {

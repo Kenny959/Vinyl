@@ -4,6 +4,10 @@
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
+        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test_database.xml",
+        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\src\\main\\res\\layout\\test_database.xml"
+    },
+    {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_big_media.xml"
     },
@@ -164,12 +168,12 @@
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash.xml",
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\src\\main\\res\\layout\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",

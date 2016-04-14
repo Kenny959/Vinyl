@@ -26,7 +26,8 @@
         android:layout_height="match_parent"
         android:background="#696969">
 
-        <TextView android:layout_width="wrap_content"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Title"
             android:layout_x="30dp"
@@ -42,10 +43,78 @@
             android:layout_y="150dp" />
 
         <EditText
+            android:id="@+id/Name"
             android:layout_width="100dp"
             android:layout_height="25dp"
             android:layout_x="150dp"
             android:layout_y="150dp"
             android:background="#f9f7f7"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="Enter name:"
+            android:id="@+id/textView2"
+            android:textColor="#FFFFFF"
+            android:layout_x="30dp"
+            android:layout_y="200dp" />
+
+        <EditText
+            android:id="@+id/Name2"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_x="150dp"
+            android:layout_y="200dp"
+            android:background="#f9f7f7"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="Enter name:"
+            android:id="@+id/textView3"
+            android:textColor="#FFFFFF"
+            android:layout_x="30dp"
+            android:layout_y="250dp" />
+
+        <EditText
+            android:id="@+id/Name3"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_x="150dp"
+            android:layout_y="250dp"
+            android:background="#f9f7f7"/>
+
+        <Button
+            android:id="@+id/take_image_from_camera"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="takeImageFromCamera"
+            android:layout_height="wrap_content"
+            android:text="Take Photo From Camera"
+            android:layout_x="21dp"
+            android:layout_y="300dp" />
+
+        <ImageView
+            android:id="@+id/image_from_camera"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_x="48dp"
+            android:layout_y="357dp" />
+
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_x="277dp"
+            android:layout_y="185dp"
+            android:text="Send"
+            android:id="@+id/addButton"
+            android:onClick="addButton" />
     </AbsoluteLayout>
 </android.support.design.widget.CoordinatorLayout>
