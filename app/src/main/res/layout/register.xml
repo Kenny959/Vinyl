@@ -1,0 +1,83 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fname" />
+
+        <EditText
+            android:id="@+id/et_fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lname" />
+
+        <EditText
+            android:id="@+id/et_lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/take_image_from_camera"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="takeImageFromCamera"
+            android:layout_height="wrap_content"
+            android:text="Take Photo From Camera"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="URI : "
+            android:id="@+id/textView4"
+            android:layout_x="70dp"
+            android:layout_y="550dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset" />
+    </TableRow>
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/image_from_camera"/>
+
+</TableLayout>
+
+
+

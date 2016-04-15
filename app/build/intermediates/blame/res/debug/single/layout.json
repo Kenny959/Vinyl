@@ -24,12 +24,12 @@
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_vinyl_list.xml",
-        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\src\\main\\res\\layout\\activity_vinyl_list.xml"
-    },
-    {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_vinyl_list.xml",
+        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\src\\main\\res\\layout\\activity_vinyl_list.xml"
     },
     {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
@@ -112,6 +112,10 @@
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
+        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row.xml",
+        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\src\\main\\res\\layout\\row.xml"
+    },
+    {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_media_cancel_action.xml"
     },
@@ -164,12 +168,12 @@
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
-        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash.xml",
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\src\\main\\res\\layout\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
@@ -178,6 +182,10 @@
     {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register.xml",
+        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\src\\main\\res\\layout\\register.xml"
     },
     {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
@@ -206,6 +214,14 @@
     {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vinyl_list.xml",
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\src\\main\\res\\layout\\vinyl_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\editregister.xml",
+        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\src\\main\\res\\layout\\editregister.xml"
     },
     {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",

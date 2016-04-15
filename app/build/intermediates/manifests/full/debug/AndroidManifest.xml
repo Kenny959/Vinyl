@@ -8,22 +8,68 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="23" />
 
+    <!--
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <uses-permission android:name="android.permission.CAMERA"/>
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+        <uses-feature android:name="android.hardware.camera" />
+        <uses-feature android:name="android.hardware.camera.autofocus" />
+
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VinylListActivity"
+            android:label="@string/title_vinyl_detail"
+            android:parentActivityName=".VinylListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vanmeenen.vinyl.VinylListActivity" />
+        </activity>
+        <activity
+            android:name=".VinylDetailActivity"
+            android:label="@string/title_vinyl_detail"
+            android:parentActivityName=".VinylListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vanmeenen.vinyl.VinylListActivity" />
+        </activity>
+        <activity
+            android:name=".NewItemActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName=".VinylListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vanmeenen.vinyl.VinylListActivity" />
+        </activity>
+    </application>
+    -->
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <uses-permission android:name="android.permission.CAMERA" />
-        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
-        <uses-feature android:name="android.hardware.camera" />
-        <uses-feature android:name="android.hardware.camera.autofocus" />
-
-        <activity
-            android:name="com.vanmeenen.vinyl.SplashScreenActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
+        <activity android:name="com.vanmeenen.registration.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,32 +77,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.vanmeenen.vinyl.VinylListActivity"
-            android:label="@string/title_vinyl_detail"
-            android:parentActivityName="com.vanmeenen.vinyl.VinylListActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:name="com.vanmeenen.registration.RegistrationActivity"
+            android:label="Registration" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.vanmeenen.vinyl.VinylListActivity" />
+                android:value="com.vanmeenen.registration.MainActivity" />
         </activity>
         <activity
-            android:name="com.vanmeenen.vinyl.VinylDetailActivity"
-            android:label="@string/title_vinyl_detail"
-            android:parentActivityName="com.vanmeenen.vinyl.VinylListActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:name="com.vanmeenen.registration.EditActivity"
+            android:label="Edit" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.vanmeenen.vinyl.VinylListActivity" />
+                android:value="com.vanmeenen.registration.MainActivity" />
         </activity>
-        <activity
-            android:name="com.vanmeenen.vinyl.NewItemActivity"
-            android:label="@string/title_activity_display_message"
-            android:parentActivityName="com.vanmeenen.vinyl.VinylListActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.vanmeenen.vinyl.VinylListActivity" />
-        </activity>
+/>
     </application>
 
 </manifest>
