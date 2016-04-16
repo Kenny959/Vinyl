@@ -63,7 +63,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name="com.vanmeenen.registration.MainActivity">
+        <activity android:name="com.vanmeenen.vinyls.VinylActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -72,19 +72,19 @@
 
 
         <activity
-            android:name="com.vanmeenen.registration.RegistrationActivity"
+            android:name="com.vanmeenen.vinyls.RegistrationActivity"
             android:label="Registration">
             <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.vanmeenen.registration.MainActivity"/>
+            android:value="com.vanmeenen.vinyls.VinylActivity"/>
         </activity>
 
         <activity
-            android:name="com.vanmeenen.registration.EditActivity"
+            android:name="com.vanmeenen.vinyls.EditActivity"
             android:label="Edit">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.vanmeenen.registration.MainActivity"/>
+                android:value="com.vanmeenen.vinyls.VinylActivity"/>
         </activity>/>
     </application>
 

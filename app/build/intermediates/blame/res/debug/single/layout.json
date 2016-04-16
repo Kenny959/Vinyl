@@ -12,24 +12,24 @@
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_vinyl_list.xml",
         "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\src\\main\\res\\layout\\activity_vinyl_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "C:\\Users\\k.vanmeenen\\AndroidStudioProjects\\Vinyl\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",

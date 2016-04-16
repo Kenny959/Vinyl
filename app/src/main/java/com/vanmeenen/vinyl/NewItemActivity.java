@@ -2,29 +2,15 @@ package com.vanmeenen.vinyl;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.hardware.Camera;
-import android.hardware.Camera.PictureCallback;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.SurfaceHolder;
-import android.view.SurfaceView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import java.io.Console;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
 
 public class NewItemActivity extends AppCompatActivity {
     private static final int CAMERA_REQUEST = 1888;
@@ -41,7 +27,7 @@ public class NewItemActivity extends AppCompatActivity {
 
         mimageView = (ImageView) this.findViewById(R.id.image_from_camera);
         Button button = (Button) this.findViewById(R.id.take_image_from_camera);
-        tv = (TextView) this.findViewById(R.id.textView4);
+        tv = (TextView) this.findViewById(R.id.camera_url_tv);
     }
 
     protected void addButton(View view){

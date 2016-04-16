@@ -1,13 +1,16 @@
 <resources>
 
-    <string name="app_name">RegistrationForm</string>
+    <string name="app_name">Vinyls K</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="fname">Fist Name</string>
+    <string name="Title">Fist Name</string>
     <string name="lname">Last Name</string>
-    <string name="register">Register Here</string>
-    <string name="submit">Submit </string>
-    <string name="reset">Reset </string>
+    <string name="register">Ajouter</string>
+    <string name="submit">Sauver</string>
+    <string name="reset">Effacer</string>
+    <string name="takePhoto">Photo</string>
+
+
 
 </resources>

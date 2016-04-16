@@ -121,7 +121,7 @@
             android:layout_height="25dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="URI : "
-            android:id="@+id/textView4"
+            android:id="@+id/camera_url_tv"
             android:layout_x="70dp"
             android:layout_y="550dp" />
     </AbsoluteLayout>

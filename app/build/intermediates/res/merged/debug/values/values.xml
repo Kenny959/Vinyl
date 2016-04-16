@@ -262,6 +262,7 @@
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="Title">Fist Name</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -281,18 +282,18 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">RegistrationForm</string>
+    <string name="app_name">Vinyls K</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="fname">Fist Name</string>
     <string name="hello_world">Hello world!</string>
     <string name="lname">Last Name</string>
     <string name="menu_settings">Settings</string>
-    <string name="register">Register Here</string>
-    <string name="reset">Reset </string>
+    <string name="register">Ajouter</string>
+    <string name="reset">Effacer</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="submit">Submit </string>
+    <string name="submit">Sauver</string>
+    <string name="takePhoto">Photo</string>
     <string name="title_activity_main">MainActivity</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

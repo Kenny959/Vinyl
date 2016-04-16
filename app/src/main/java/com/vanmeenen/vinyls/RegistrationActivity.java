@@ -1,4 +1,4 @@
-package com.vanmeenen.registration;
+package com.vanmeenen.vinyls;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -15,10 +15,10 @@ import android.widget.TextView;
 import com.vanmeenen.vinyl.R;
 
 public class RegistrationActivity extends Activity {
-    RegistrationAdapter adapter;
-    RegistrationOpenHelper helper;
-    EditText fnameEdit, lnameEdit;
-    Button submitBtn, resetBtn;
+    MyAdapter adapter;
+    MySQLiteOpenHelper mySQLiteOpenHelper;
+    EditText singerNameAdd_et, songTitleAdd_et;
+    Button submit_btn, reset_btn;
 
     //Camera
     private static final int CAMERA_REQUEST = 1888;
@@ -29,39 +29,40 @@ public class RegistrationActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register);
-        fnameEdit = (EditText) findViewById(R.id.et_fname);
-        lnameEdit = (EditText) findViewById(R.id.et_lname);
-        submitBtn = (Button) findViewById(R.id.btn_submit);
-        resetBtn = (Button) findViewById(R.id.btn_reset);
-        adapter = new RegistrationAdapter(this);
+        singerNameAdd_et = (EditText) findViewById(R.id.singerNameAdd_et);
+        songTitleAdd_et = (EditText) findViewById(R.id.songTitleAdd_et);
+        submit_btn = (Button) findViewById(R.id.submit_btn);
+        reset_btn = (Button) findViewById(R.id.reset_btn);
+        adapter = new MyAdapter(this);
 
-        submitBtn.setOnClickListener(new OnClickListener() {
+
+
+        submit_btn.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                // TODO Auto-generated method stub
-                String fnameValue = fnameEdit.getText().toString();
-                String lnameValue = lnameEdit.getText().toString();
-                long val = adapter.insertDetails(fnameValue, lnameValue);
-                // Toast.makeText(getApplicationContext(), Long.toString(val),
-                // 300).show();
+                String singerNameValue = singerNameAdd_et.getText().toString();
+                String songTitleValue = songTitleAdd_et.getText().toString();
+
+                Vinyl vinyl = new Vinyl(singerNameValue, songTitleValue);
+
+                long val = adapter.insert(vinyl);
                 finish();
             }
         });
-        resetBtn.setOnClickListener(new OnClickListener() {
+        reset_btn.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                // TODO Auto-generated method stub
-                fnameEdit.setText("");
-                lnameEdit.setText("");
+                singerNameAdd_et.setText("");
+                songTitleAdd_et.setText("");
             }
         });
 
         //Camera
         mimageView = (ImageView) this.findViewById(R.id.image_from_camera);
         Button button = (Button) this.findViewById(R.id.take_image_from_camera);
-        tv = (TextView) this.findViewById(R.id.textView4);
+        tv = (TextView) this.findViewById(R.id.camera_url_tv);
     }
 
 

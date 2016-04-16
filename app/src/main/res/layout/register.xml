@@ -11,10 +11,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fname" />
+            android:text="@string/Title" />
 
         <EditText
-            android:id="@+id/et_fname"
+            android:id="@+id/singerNameAdd_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </TableRow>
@@ -29,7 +29,7 @@
             android:text="@string/lname" />
 
         <EditText
-            android:id="@+id/et_lname"
+            android:id="@+id/songTitleAdd_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </TableRow>
@@ -41,14 +41,14 @@
             android:layout_marginTop="10dp"
             android:onClick="takeImageFromCamera"
             android:layout_height="wrap_content"
-            android:text="Take Photo From Camera"/>
+            android:text="@string/takePhoto"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="25dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="URI : "
-            android:id="@+id/textView4"
+            android:id="@+id/camera_url_tv"
             android:layout_x="70dp"
             android:layout_y="550dp" />
     </TableRow>
@@ -58,13 +58,13 @@
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/btn_submit"
+            android:id="@+id/submit_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/submit" />
 
         <Button
-            android:id="@+id/btn_reset"
+            android:id="@+id/reset_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/reset" />

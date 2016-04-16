@@ -17,10 +17,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/fname" />
+                android:text="@string/Title" />
 
             <EditText
-                android:id="@+id/et_editfname"
+                android:id="@+id/singerNameEdit_et"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content" >
 
@@ -35,10 +35,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/fname" />
+                android:text="@string/Title" />
 
             <EditText
-                android:id="@+id/et_editlname"
+                android:id="@+id/song_title_et"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content" />
         </TableRow>
@@ -50,13 +50,13 @@
         android:orientation="horizontal" >
 
         <Button
-            android:id="@+id/btn_update"
+            android:id="@+id/add_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="update" />
 
         <Button
-            android:id="@+id/btn_delete"
+            android:id="@+id/delete_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Delete" />
