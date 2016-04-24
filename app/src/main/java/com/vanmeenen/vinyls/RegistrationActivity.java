@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.vanmeenen.vinyl.PhotoActivity;
 import com.vanmeenen.vinyl.R;
 
 public class RegistrationActivity extends Activity {
@@ -67,8 +68,13 @@ public class RegistrationActivity extends Activity {
 
 
     public void takeImageFromCamera(View view) {
+        Intent intent = new Intent(this, PhotoActivity.class);
+        startActivity(intent);
+
+        /*
         Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
         startActivityForResult(cameraIntent, CAMERA_REQUEST);
+        */
     }
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {

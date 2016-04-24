@@ -10,7 +10,6 @@
     <string name="submit">Sauver</string>
     <string name="reset">Effacer</string>
     <string name="takePhoto">Photo</string>
-
-
+    <string name="photo_takeAPicture">Take a picture</string>
 
 </resources>
