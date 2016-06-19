@@ -11,7 +11,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Title" />
+            android:text="@string/SingerName" />
 
         <EditText
             android:id="@+id/singerNameAdd_et"
@@ -26,7 +26,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/lname" />
+            android:text="@string/SongName" />
 
         <EditText
             android:id="@+id/songTitleAdd_et"
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content" />
     </TableRow>
 
-    <TableRow>
+    <!--<TableRow>
         <Button
             android:id="@+id/take_image_from_camera"
             android:layout_width="wrap_content"
@@ -51,7 +51,7 @@
             android:id="@+id/camera_url_tv"
             android:layout_x="70dp"
             android:layout_y="550dp" />
-    </TableRow>
+    </TableRow>-->
 
     <TableRow
         android:layout_width="wrap_content"

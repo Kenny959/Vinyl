@@ -17,7 +17,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Title" />
+                android:text="@string/SingerName" />
 
             <EditText
                 android:id="@+id/singerNameEdit_et"
@@ -35,10 +35,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Title" />
+                android:text="@string/SongName" />
 
             <EditText
-                android:id="@+id/song_title_et"
+                android:id="@+id/songTitleEdit_et"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content" />
         </TableRow>

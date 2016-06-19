@@ -22,7 +22,7 @@ public class EditActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.editregister);
         singerName = (EditText) findViewById(R.id.singerNameEdit_et);
-        songTitle = (EditText) findViewById(R.id.songTitleAdd_et);
+        songTitle = (EditText) findViewById(R.id.songTitleEdit_et);
         add_btn = (Button) findViewById(R.id.add_btn);
         delete_btn = (Button) findViewById(R.id.delete_btn);
 

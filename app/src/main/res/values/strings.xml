@@ -4,12 +4,12 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="Title">Fist Name</string>
-    <string name="lname">Last Name</string>
+    <string name="SingerName">Nom de l\'artiste</string>
+    <string name="SongName">Nom de la chanson</string>
     <string name="register">Ajouter</string>
     <string name="submit">Sauver</string>
     <string name="reset">Effacer</string>
     <string name="takePhoto">Photo</string>
-    <string name="photo_takeAPicture">Take a picture</string>
+    <string name="photo_takeAPicture">Prendre une photo</string>
 
 </resources>
