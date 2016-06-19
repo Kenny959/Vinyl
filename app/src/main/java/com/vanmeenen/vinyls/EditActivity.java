@@ -38,15 +38,16 @@ public class EditActivity extends Activity {
             do {
                 singerName.setText(c.getString(1));
                 songTitle.setText(c.getString(2));
-
+                //TODO FIX ME photo
             } while (c.moveToNext());
         }
 
+        //TODO FIX ME photo
         add_btn.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                Vinyl vinyl = new Vinyl(singerName.getText().toString(), songTitle.getText().toString());
+                Vinyl vinyl = new Vinyl(singerName.getText().toString(), songTitle.getText().toString(), null);
                 myAdapter.update(rowId, vinyl);
                 finish();
             }

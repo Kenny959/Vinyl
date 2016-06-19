@@ -7,14 +7,17 @@ package com.vanmeenen.vinyls;
 public class Vinyl {
     private long id;
     private String name;
-    private String description;
+    private String song;
+    private String photo;
+
 
     public Vinyl(){
     }
 
-    public Vinyl(String name, String description){
+    public Vinyl(String name, String song, String photo){
         this.name = name;
-        this.description = description;
+        this.song = song;
+        this.photo = photo;
     }
 
     public long getId() {
@@ -32,17 +35,26 @@ public class Vinyl {
         this.name = name;
     }
 
-    public String getDescription() {
-        return description;
+    public String getSong() {
+        return song;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setSong(String song) {
+        this.song = song;
     }
 
     // Will be used by the ArrayAdapter in the ListView
     @Override
     public String toString() {
-        return name + description;
+        return name + song + photo;
+    }
+
+
+    public String getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
     }
 }

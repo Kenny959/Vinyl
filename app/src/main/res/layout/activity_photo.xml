@@ -10,11 +10,6 @@
     android:theme="@style/Holo"
     tools:context="com.vanmeenen.vinyl.PhotoActivity">
 
-    <EditText android:id="@+id/edit_message"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/photo_takeAPicture" />
-
     <ImageView
         android:id="@+id/img_from_camera"
         android:layout_width="match_parent"
@@ -27,6 +22,14 @@
         android:layout_height="50dp"
         android:onClick="takeImageFromCamera"
         android:layout_below="@id/img_from_camera"
-        android:text="@string/photo_takeAPicture" />
+        android:text="@string/takePicture" />
+
+    <Button
+        android:id="@+id/validate_picture"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="goBackToRegistration"
+        android:layout_below="@id/take_a_picture"
+        android:text="@string/validatePicture" />
 
 </RelativeLayout>

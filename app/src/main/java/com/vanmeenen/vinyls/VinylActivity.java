@@ -30,8 +30,8 @@ public class VinylActivity extends Activity {
         add_btn = (Button) findViewById(R.id.btn_register);
         myAdapter = new MyAdapter(this);
 
-        String[] from = { mySQLiteOpenHelper.SINGER_NAME, mySQLiteOpenHelper.SONG_TITLE};
-        int[] to = { R.id.singer_name_tv, R.id.song_title_tv};
+        String[] from = { mySQLiteOpenHelper.SINGER_NAME, mySQLiteOpenHelper.SONG_TITLE, mySQLiteOpenHelper.PHOTO_URL};
+        int[] to = { R.id.singer_name_tv, R.id.song_title_tv, R.id.camera_url_tv};
         cursor = myAdapter.queryName();
         SimpleCursorAdapter cursorAdapter = new SimpleCursorAdapter(this,
                 R.layout.row, cursor, from, to);

@@ -20,6 +20,7 @@ public class RegistrationActivity extends Activity {
     MySQLiteOpenHelper mySQLiteOpenHelper;
     EditText singerNameAdd_et, songTitleAdd_et;
     Button submit_btn, reset_btn;
+    private String photoPath ;
 
     //Camera
     private static final int CAMERA_REQUEST = 1888;
@@ -35,7 +36,7 @@ public class RegistrationActivity extends Activity {
         submit_btn = (Button) findViewById(R.id.submit_btn);
         reset_btn = (Button) findViewById(R.id.reset_btn);
         adapter = new MyAdapter(this);
-
+        photoPath = getIntent().getStringExtra("picturePath");
 
 
         submit_btn.setOnClickListener(new OnClickListener() {
@@ -44,8 +45,7 @@ public class RegistrationActivity extends Activity {
             public void onClick(View arg0) {
                 String singerNameValue = singerNameAdd_et.getText().toString();
                 String songTitleValue = songTitleAdd_et.getText().toString();
-
-                Vinyl vinyl = new Vinyl(singerNameValue, songTitleValue);
+                Vinyl vinyl = new Vinyl(singerNameValue, songTitleValue, photoPath);
 
                 long val = adapter.insert(vinyl);
                 finish();
@@ -64,17 +64,16 @@ public class RegistrationActivity extends Activity {
         mimageView = (ImageView) this.findViewById(R.id.image_from_camera);
         Button button = (Button) this.findViewById(R.id.take_image_from_camera);
         tv = (TextView) this.findViewById(R.id.camera_url_tv);
+
+
+        tv.setText(tv.getText() + getIntent().getStringExtra("pictureStatus"));
+
     }
 
 
     public void takeImageFromCamera(View view) {
         Intent intent = new Intent(this, PhotoActivity.class);
         startActivity(intent);
-
-        /*
-        Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
-        startActivityForResult(cameraIntent, CAMERA_REQUEST);
-        */
     }
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {

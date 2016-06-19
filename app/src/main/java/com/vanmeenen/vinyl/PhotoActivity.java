@@ -13,6 +13,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 
+import com.vanmeenen.vinyls.RegistrationActivity;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -25,8 +27,6 @@ public class PhotoActivity extends Activity {
     private ImageView imgFromCamera;
     private String mCurrentPhotoPath;
 
-    private EditText editText;
-
     private static final String KEY_PHOTO_PATH = "KEY_PHOTO";
 
     @Override
@@ -35,12 +35,19 @@ public class PhotoActivity extends Activity {
         setContentView(R.layout.activity_photo);
 
         imgFromCamera = (ImageView) this.findViewById(R.id.img_from_camera);
-        editText = (EditText) this.findViewById(R.id.edit_message);
 
         // Activity is being recreated after screen orientation change
         if (savedInstanceState != null) {
             mCurrentPhotoPath = savedInstanceState.getString(KEY_PHOTO_PATH);
         }
+    }
+
+    public void goBackToRegistration(View view)
+    {
+        Intent intent = new Intent(this, RegistrationActivity.class);
+        intent.putExtra("pictureStatus", "ok");
+        intent.putExtra("picturePath", mCurrentPhotoPath);
+        startActivity(intent);
     }
 
     public void takeImageFromCamera(View view) {
@@ -63,7 +70,6 @@ public class PhotoActivity extends Activity {
 
             // Continue only if the File was successfully created
             if (photoFile != null) {
-                editText.setText(mCurrentPhotoPath);
                 camera.putExtra(MediaStore.EXTRA_OUTPUT,
                         Uri.fromFile(photoFile));
                 startActivityForResult(camera, REQUEST_IMAGE_CAPTURE);

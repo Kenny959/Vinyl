@@ -10,6 +10,9 @@ public class MyAdapter {
     MySQLiteOpenHelper mySQLiteOpenHelper;
     Context context;
 
+    private final String cols[] =  { mySQLiteOpenHelper.KEY_ID, mySQLiteOpenHelper.SINGER_NAME,
+            mySQLiteOpenHelper.SONG_TITLE, mySQLiteOpenHelper.PHOTO_URL};
+
     public MyAdapter(Context c) {
         context = c;
     }
@@ -37,7 +40,8 @@ public class MyAdapter {
     public long insert(Vinyl vinyl) {
         ContentValues contentValues = new ContentValues();
         contentValues.put(mySQLiteOpenHelper.SINGER_NAME, vinyl.getName());
-        contentValues.put(mySQLiteOpenHelper.SONG_TITLE, vinyl.getDescription());
+        contentValues.put(mySQLiteOpenHelper.SONG_TITLE, vinyl.getSong());
+        contentValues.put(mySQLiteOpenHelper.PHOTO_URL, vinyl.getPhoto());
         opnToWrite();
         long val = sqLiteDatabase_db.insert(mySQLiteOpenHelper.TABLE_NAME, null,
                 contentValues);
@@ -47,8 +51,6 @@ public class MyAdapter {
     }
 
     public Cursor queryName() {
-        String[] cols = { mySQLiteOpenHelper.KEY_ID, mySQLiteOpenHelper.SINGER_NAME,
-                mySQLiteOpenHelper.SONG_TITLE};
         opnToWrite();
         Cursor c = sqLiteDatabase_db.query(mySQLiteOpenHelper.TABLE_NAME, cols, null,
                 null, null, null, null);
@@ -58,8 +60,6 @@ public class MyAdapter {
     }
 
     public Cursor queryAll(int nameId) {
-        String[] cols = { mySQLiteOpenHelper.KEY_ID, mySQLiteOpenHelper.SINGER_NAME,
-                mySQLiteOpenHelper.SONG_TITLE};
         opnToWrite();
         Cursor c = sqLiteDatabase_db.query(mySQLiteOpenHelper.TABLE_NAME, cols,
                 mySQLiteOpenHelper.KEY_ID + "=" + nameId, null, null, null, null);
@@ -71,7 +71,8 @@ public class MyAdapter {
     public long update(int rowId, Vinyl vinyl) {
         ContentValues contentValues = new ContentValues();
         contentValues.put(mySQLiteOpenHelper.SINGER_NAME, vinyl.getName());
-        contentValues.put(mySQLiteOpenHelper.SONG_TITLE, vinyl.getDescription());
+        contentValues.put(mySQLiteOpenHelper.SONG_TITLE, vinyl.getSong());
+        contentValues.put(mySQLiteOpenHelper.PHOTO_URL, vinyl.getPhoto());
         opnToWrite();
         long val = sqLiteDatabase_db.update(mySQLiteOpenHelper.TABLE_NAME, contentValues,
                 mySQLiteOpenHelper.KEY_ID + "=" + rowId, null);
@@ -86,5 +87,4 @@ public class MyAdapter {
         Close();
         return val;
     }
-
 }

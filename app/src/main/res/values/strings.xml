@@ -1,15 +1,16 @@
 <resources>
 
-    <string name="app_name">Vinyls K</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="appName">Vinyls K</string>
+    <string name="delete">Supprimer</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="SingerName">Nom de l\'artiste</string>
-    <string name="SongName">Nom de la chanson</string>
+    <string name="singerName">Nom de l\'artiste</string>
+    <string name="songName">Nom de la chanson</string>
     <string name="register">Ajouter</string>
-    <string name="submit">Sauver</string>
     <string name="reset">Effacer</string>
+    <string name="submit">Sauver</string>
     <string name="takePhoto">Photo</string>
-    <string name="photo_takeAPicture">Prendre une photo</string>
-
+    <string name="takePicture">Prendre une photo</string>
+    <string name="titleActivityMain">MainActivity</string>
+    <string name="update">Modifier</string>
+    <string name="validatePicture">Valider</string>
 </resources>
