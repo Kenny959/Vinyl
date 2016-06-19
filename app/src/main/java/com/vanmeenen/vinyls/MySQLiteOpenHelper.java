@@ -19,7 +19,7 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
 
     public static final String NEW_TABLE = "create table " + TABLE_NAME + " ("
             + KEY_ID + " integer primary key autoincrement, " + SINGER_NAME
-            + " text not null, " + SONG_TITLE + " text not null, " + PHOTO_URL + "text not null)";
+            + " text not null, " + SONG_TITLE + " text not null, " + PHOTO_URL + " text not null)";
 
     public MySQLiteOpenHelper(Context context, String name, CursorFactory factory, int version) {
         super(context, name, factory, version);
@@ -34,6 +34,7 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         Log.w(MySQLiteHelper.class.getName(), "Upgrading database from version " + oldVersion + " to "
                 + newVersion + ", which will destroy all old data");
+
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
 
         //String upgradeQuery = " ALTER TABLE " + TABLE_NAME + "ADD COLUMN " + PHOTO_URL
