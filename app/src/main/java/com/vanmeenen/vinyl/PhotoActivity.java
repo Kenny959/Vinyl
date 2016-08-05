@@ -44,10 +44,15 @@ public class PhotoActivity extends Activity {
 
     public void goBackToRegistration(View view)
     {
-        Intent intent = new Intent(this, RegistrationActivity.class);
-        intent.putExtra("pictureStatus", "ok");
-        intent.putExtra("picturePath", mCurrentPhotoPath);
-        startActivity(intent);
+        Intent intent = new Intent();
+        //Intent intent = new Intent(this, RegistrationActivity.class);
+        //Intent intent = getIntent();
+                setResult(Activity.RESULT_OK);
+        //onBackPressed();
+        //intent.putExtra("pictureStatus", "ok");
+        //intent.putExtra("picturePath", mCurrentPhotoPath);
+        //startActivity(intent);
+        finish();
     }
 
     public void takeImageFromCamera(View view) {

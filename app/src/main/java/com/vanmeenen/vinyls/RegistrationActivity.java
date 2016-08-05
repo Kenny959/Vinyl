@@ -20,12 +20,13 @@ public class RegistrationActivity extends Activity {
     MySQLiteOpenHelper mySQLiteOpenHelper;
     EditText singerNameAdd_et, songTitleAdd_et;
     Button submit_btn, reset_btn;
-    private String photoPath ;
+    private String photoPath;
 
     //Camera
     private static final int CAMERA_REQUEST = 1888;
     ImageView mimageView;
     TextView tv;
+    int MY_REQUEST_CODE= 0;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -73,8 +74,10 @@ public class RegistrationActivity extends Activity {
 
     public void takeImageFromCamera(View view) {
         Intent intent = new Intent(this, PhotoActivity.class);
-        startActivity(intent);
-    }
+
+        startActivityForResult(intent, MY_REQUEST_CODE);
+}
+
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == CAMERA_REQUEST && resultCode == RESULT_OK) {
@@ -82,7 +85,8 @@ public class RegistrationActivity extends Activity {
             mimageView.setImageBitmap(mphoto);
         }
 
-        Uri uri = data.getData();
-        tv.setText(tv.getText()+ uri.toString());
+        //Uri uri = data.getData();
+        //tv.setText(tv.getText()+ uri.toString());
+        tv.setText(tv.getText()+ Integer.toString(MY_REQUEST_CODE));
     }
 }
