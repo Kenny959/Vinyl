@@ -21,6 +21,10 @@ import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * TODO Step to reproduce Take a picture, we get the path, press again to take a picture but instead of taking the picture go back. The screen does not contains the previous picture
+ * TODO Step to reproduce take a picture, validate, on the registration page click on photo. The screen does not contains the previous picture
+ */
 public class PhotoActivity extends Activity {
 
     private static final int REQUEST_IMAGE_CAPTURE = 1888;
@@ -44,15 +48,21 @@ public class PhotoActivity extends Activity {
 
     public void goBackToRegistration(View view)
     {
-        Intent intent = new Intent();
+        Intent intentRegistration = new Intent();
+        intentRegistration.putExtra("picturePath", mCurrentPhotoPath);
+        setResult(Activity.RESULT_OK, intentRegistration);
+        finish();
+
+
         //Intent intent = new Intent(this, RegistrationActivity.class);
         //Intent intent = getIntent();
-                setResult(Activity.RESULT_OK);
+                //setResult(Activity.RESULT_OK);
+        //intent.
         //onBackPressed();
         //intent.putExtra("pictureStatus", "ok");
         //intent.putExtra("picturePath", mCurrentPhotoPath);
         //startActivity(intent);
-        finish();
+        //finish();
     }
 
     public void takeImageFromCamera(View view) {
